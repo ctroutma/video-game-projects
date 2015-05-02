@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: 9efeaa4b7f0cf4d5885a5eb72769b592
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - slotPreFab: {fileID: 101938, guid: 55897dab79fea4f3e9e2a49af3663630, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 

@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: fd7403febbe174e139f1671cd15328a9
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - openDrawerPreFab: {fileID: 135834, guid: 67495c4145b4543b591422b36ef3cdd8, type: 2}
+  - keyPreFab: {fileID: 159098, guid: 906851239bc7142bb8c5d64b707c7029, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 

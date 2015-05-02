@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{1DD67688-D2B4-EA60-CC2F-46348046A0F0}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_4_6_2;UNITY_4_6;UNITY_STANDALONE_WIN;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_IL2CPP;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_4_6_FEATURES;INCLUDE_WP_BLUE_SUPPORT;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;UNITY5_SCRIPTING_IN_UNITY4;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_MONO;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_OSX</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Scripts\GameManagerScripts\CameraController.cs" />
+     <Compile Include="Assets\Scripts\GameManagerScripts\GameManager.cs" />
+     <Compile Include="Assets\Scripts\GameManagerScripts\buttonController.cs" />
+     <Compile Include="Assets\Scripts\Inventory\Inventory.cs" />
+     <Compile Include="Assets\Scripts\Inventory\Inventory_button.cs" />
+     <Compile Include="Assets\Scripts\Inventory\iManager.cs" />
+     <Compile Include="Assets\Scripts\Inventory\slotScript.cs" />
+     <Compile Include="Assets\Scripts\Levels\Level_1\GameDoor1.cs" />
+     <Compile Include="Assets\Scripts\Levels\Level_1\apple.cs" />
+     <Compile Include="Assets\Scripts\Levels\Level_1\back.cs" />
+     <Compile Include="Assets\Scripts\Levels\Level_2\BackArrow.cs" />
+     <Compile Include="Assets\Scripts\Levels\Level_2\Book.cs" />
+     <Compile Include="Assets\Scripts\Levels\Level_2\Choice.cs" />
+     <Compile Include="Assets\Scripts\Levels\Level_2\GameDoor.cs" />
+     <Compile Include="Assets\Scripts\Levels\Level_2\OpenBook.cs" />
+     <Compile Include="Assets\Scripts\Levels\Level_2\zoomOut.cs" />
+     <Compile Include="Assets\Scripts\Levels\Level_3\AnswerFalse.cs" />
+     <Compile Include="Assets\Scripts\Levels\Level_3\LightSwitch.cs" />
+     <Compile Include="Assets\Scripts\Levels\Level_4\lvl3ClosedDrawer.cs" />
+     <Compile Include="Assets\Scripts\Levels\Level_4\lvl3Door.cs" />
+     <Compile Include="Assets\Scripts\Levels\Level_4\lvl3Key.cs" />
+     <Compile Include="Assets\Scripts\Levels\Level_4\lvl3OpenDrawer.cs" />
+     <Compile Include="Assets\Scripts\Levels\Level_5\Level_5_Back.cs" />
+     <Compile Include="Assets\Scripts\Levels\Level_5\Level_5_Buttons.cs" />
+     <Compile Include="Assets\Scripts\Levels\Level_5\Level_5_Door.cs" />
+     <Compile Include="Assets\Scripts\Levels\Level_5\Level_5_Page.cs" />
+     <Compile Include="Assets\Scripts\Levels\Level_5\Level_5_Puzzle.cs" />
+     <Compile Include="Assets\Scripts\Levels\Level_5\Level_5_Read_Page.cs" />
+     <Compile Include="Assets\Scripts\Levels\Level_5\Level_5_Remove_Page.cs" />
+     <Compile Include="Assets\Scripts\other\chair.cs" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/4.6.2/UnityEngine.UI.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
